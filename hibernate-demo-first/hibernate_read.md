@@ -2,14 +2,6 @@
  Hibernate is an Object Relational Mapping (ORM) framework for Java, which simplifies database operations by mapping Java classes to database tables. 
  It eliminates the need for manual JDBC code, providing cleaner and more maintainable applications.Hibernate implements the specifications of JPA (Java Persistence API) for data persistence.
  
-### Reference Link 
-- https://www.geeksforgeeks.org/advance-java/jpa-object-relational-mapping/
-- https://www.geeksforgeeks.org/java/hibernate-tutorial/
-- https://www.geeksforgeeks.org/java/introduction-to-hibernate-framework/
-- https://www.tpointtech.com/hibernate-tutorial
-- https://www.edureka.co/blog/what-is-hibernate-in-java/
-- https://www.devopsschool.com/blog/what-is-hibernate-and-use-cases-of-hibernate/
-- https://www.geeksforgeeks.org/java/hibernate-enable-and-implement-first-and-second-level-cache/
 
 ## Key features of Hibernate
 - Object-Relational Mapping (ORM)
@@ -47,10 +39,10 @@
  It is a factory of Transaction. It is optional.
 
 ## Hibernate Work flow 
-- 1. Application loads configuration (hibernate.cfg.xml).
-- 2. Hibernate builds a SessionFactory.
-- 3. Application requests a Session from SessionFactory.
-- 4. Inside a Session:
+-  Application loads configuration (hibernate.cfg.xml).
+-  Hibernate builds a SessionFactory.
+-  Application requests a Session from SessionFactory.
+-  Inside a Session:
  
    Begin Transaction
    Perform CRUD operations
@@ -70,12 +62,23 @@
 - Component Mapping
 
 ## Hibernate/JPA Annotations
-@Embeddable vs @Embedded
-@Entity
-@Table
-@Column
-@Id
-@GeneratedValue
-@Version
-@OrderBy
-@Transient
+- @Embeddable vs @Embedded
+- @Entity
+- @Table
+- @Column
+- @Id
+- @GeneratedValue
+- @Version
+- @OrderBy
+- @Transient
+
+### Main Reference Link 
+- https://www.geeksforgeeks.org/java/hibernate-tutorial/
+- https://www.tpointtech.com/hibernate-tutorial
+
+### Other Reference Link 
+- https://www.geeksforgeeks.org/advance-java/jpa-object-relational-mapping/
+- https://www.geeksforgeeks.org/java/introduction-to-hibernate-framework/
+- https://www.edureka.co/blog/what-is-hibernate-in-java/
+- https://www.devopsschool.com/blog/what-is-hibernate-and-use-cases-of-hibernate/
+- https://www.geeksforgeeks.org/java/hibernate-enable-and-implement-first-and-second-level-cache/
