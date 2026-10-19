@@ -72,6 +72,12 @@
 - @OrderBy
 - @Transient
 
+## Hibernate Lifecycle or Entity Object Lifecycle in Hibernate Framework
+- Transient State
+- Persistent State
+- Detached State
+- Removed State
+
 ### Main Reference Link 
 - https://www.geeksforgeeks.org/java/hibernate-tutorial/
 - https://www.tpointtech.com/hibernate-tutorial
