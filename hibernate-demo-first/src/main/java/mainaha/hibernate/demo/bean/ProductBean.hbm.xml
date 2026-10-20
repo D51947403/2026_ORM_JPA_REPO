@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+	<class name="mainaha.hibernate.demo.bean.ProductBean" table="tm_product">
+		<id name="productId" type="int" column="product_id">
+			<generator class="assigned" />
+			<!-- native / assigned /sequence -->
+		</id>
+
+		<property name="productName" column="product_name" />
+
+		<property name="price" type="float">
+			<column name="product_price" />
+		</property>
+		
+	</class>
+</hibernate-mapping>
