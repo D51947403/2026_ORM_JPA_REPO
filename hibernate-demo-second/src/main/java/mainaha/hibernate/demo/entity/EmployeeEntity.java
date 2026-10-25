@@ -20,7 +20,7 @@ public class EmployeeEntity implements Serializable {
  
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "emp_id", unique = true, nullable = false)
+    @Column(name = "emp_id", unique = true, nullable = false ,columnDefinition = "INT(11) UNSIGNED")
     private Integer employeeId;
  
     @Column(name = "email", unique = true, nullable = false, length = 100)
